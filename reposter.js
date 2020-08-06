@@ -457,7 +457,7 @@ function sendCommands(channel) {
 	const prefix = config.prefixes[(channel.guild || channel).id] || "/";
 	const rich = new Discord.RichEmbed();
 	rich.setTitle("Reposter Commands");
-	rich.setDescription("By MysteryPancake");
+	rich.setDescription("By Rayne");
 	rich.setFooter(client.user.id, client.user.displayAvatarURL);
 	rich.setAuthor(niceName(channel, channel, client.user), client.user.displayAvatarURL, "https://github.com/MysteryPancake/Discord-Reposter");
 	rich.setThumbnail(client.user.displayAvatarURL);
