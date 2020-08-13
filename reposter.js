@@ -9,7 +9,7 @@ const client = new Discord.Client();
 client.login("NzQwODk3OTU5NDY5NjQ1ODQ0.Xyvs_g.QfhuzADw2RjYgO_nN2klo5Vog4A").catch(console.error);
 
 client.on("ready", function() {
-	client.user.setActivity(`/repost help in ${client.guilds.size} servers with ${Object.keys(config.active).length} reposts`, { type: "WATCHING" }).catch(console.error);
+	client.user.setActivity(`/repost help | ${client.guilds.size} server(s) | ${Object.keys(config.active).length} reposts`, { type: "WATCHING" }).catch(console.error);
 	console.log("READY FOR ACTION!");
 });
 
