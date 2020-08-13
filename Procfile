@@ -1,1 +1,1 @@
-worker: node reposter.js
+worker: npm start
